@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "lerna": "^8.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.1"
+  },
+  "scripts": {
+    "playground": "lerna run dev --scope=@playground/js"
+  }
+}

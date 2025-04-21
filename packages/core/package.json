@@ -1,0 +1,22 @@
+{
+  "name": "@mito/core",
+  "version": "0.0.0",
+  "description": "core",
+  "author": "wangqingyun <2510061498@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "src"
+  },
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "dev": "ts-node  src/index.ts"
+  }
+}
