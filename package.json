@@ -3,12 +3,17 @@
   "private": true,
   "type": "module",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
     "lerna": "^8.2.2",
+    "rollup": "^4.40.0",
+    "rollup-plugin-typescript2": "^0.36.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
     "vite": "^6.3.1"
   },
   "scripts": {
-    "playground": "lerna run dev --scope=@playground/js"
+    "playground": "lerna run dev --scope=@playground/js",
+    "build": "lerna run build --scope=@mito/browser"
   }
 }

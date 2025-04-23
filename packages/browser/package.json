@@ -17,7 +17,8 @@
     "registry": "https://registry.npmmirror.com/"
   },
   "scripts": {
-    "dev": "ts-node  src/index.ts"
+    "dev": "ts-node  src/index.ts",
+    "build": "rollup -c"
   },
   "dependencies": {
     "@mito/core": "workspace:^"
