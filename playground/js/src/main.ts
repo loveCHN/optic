@@ -1,3 +1,3 @@
-import { str } from "@optic/browser";
+import { init } from "@optic/browser";
 
-document.body.innerHTML = str;
+init();

@@ -1,7 +1,7 @@
-import { b } from '@optic/core';
-
+import { b } from "@optic/core";
+console.log(777);
 const init = () => {
-    console.log(b, "b");
+  console.log(b, "b");
 };
 
 export { init };
