@@ -14,8 +14,7 @@ export default {
     commonjs(),
     typescript({
       tsconfig: "./tsconfig.json",
-      useTsconfigDeclarationDir: true,
     }),
   ],
-  external: ["@mito/core"],
+  external: ["@optic/core"],
 };

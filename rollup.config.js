@@ -27,5 +27,5 @@ export default {
       clean: true,
     }),
   ],
-  external: ["@mito/core"],
+  external: ["@optic/core"],
 };

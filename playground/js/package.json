@@ -9,6 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mito/browser": "workspace:^"
+    "@optic/browser": "workspace:^"
   }
 }

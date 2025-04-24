@@ -1,5 +1,5 @@
 {
-  "name": "@mito/browser",
+  "name": "@optic/browser",
   "version": "0.0.0",
   "description": "browser的包",
   "author": "wangqingyun <2510061498@qq.com>",
@@ -21,6 +21,6 @@
     "build": "rollup -c"
   },
   "dependencies": {
-    "@mito/core": "workspace:^"
+    "@optic/core": "workspace:^"
   }
 }

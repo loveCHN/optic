@@ -13,9 +13,9 @@
     "rootDir": "./",
     "baseUrl": ".",
     "paths": {
-      "@mito/*": ["packages/*/src"]
+      "@optic/*": ["packages/*/src"]
     }
   },
-  "include": ["packages/*/src/**/*", "demo.ts"],
+  "include": ["packages/*/src/**/*"],
   "exclude": ["node_modules", "dist"]
 }

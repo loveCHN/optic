@@ -1,3 +1,3 @@
-import { str } from "@mito/browser";
+import { str } from "@optic/browser";
 
 document.body.innerHTML = str;
